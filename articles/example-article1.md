@@ -5,3 +5,5 @@ type: "tech" # tech: 技術記事 / idea: アイデア記事
 topics: ["test"] # タグ。["markdown", "rust", "aws"]のように指定する
 published: true # 公開設定（falseにすると下書き）
 ---
+
+# テスト投稿です
