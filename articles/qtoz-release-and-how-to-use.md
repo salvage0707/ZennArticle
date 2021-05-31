@@ -13,12 +13,12 @@ Qiitaに投稿した記事をZennに移行するためのアプリを作成し�
 
 
 ## アプリのURL
-良かったらぜひ使ってみてください！
+「QtoZ（キュートゥーゼン）」ぜひ使ってみてください！
 今後少しずつ機能追加や修正を行います。フィードバックなどはこちらの記事のコメントしていただけると嬉しいです！
 
 https://qtoz.salv.dev/
 
-※ App Engineを使っているため、初期レスポンスに時間がかかる場合がありますm(__)m
+※ App Engineを使っているため、初期レスポンスに時間がかかる場合があります m(__)m
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/224082/76b81f76-45fb-1c4b-0f1d-637455c3185c.png)
 
