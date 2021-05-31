@@ -145,7 +145,7 @@ Qiita APIを使用した、OAuth認証を使用しているので、Qiitaアカ�
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/224082/4b01a9a6-cb37-8db4-b7de-f30cc7a9d181.png)
 
 
-実行後、数分後に画面を描画してください。
+実行後、数分で処理が完了するので画面をリロードしてください。
 ステータスが「完了」になっている行の「ダウンロードアイコン」を押していただくと、Zipファイルがダウンロードできます。
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/224082/fe952c5b-c01f-a415-1ca4-5c86dc27e79f.png)
 
