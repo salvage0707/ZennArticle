@@ -6,7 +6,7 @@ topics: ["SQL"]
 published: false
 ---
 # コマンド
-##データベースの確認
+## データベースの確認
 ```
 mysql> SHOW DATABASES;
 +--------------------+
@@ -23,7 +23,7 @@ mysql> SHOW DATABASES;
 
 このように初期では5つのデータベースが作成されている。このデータベースはMySQLが動作するためのデータベースとして必要だから、決して削除しない。
 
-##データベースを作成
+## データベースを作成
 基本構文　
 `$ CREATE DATABASE データベース名;`
 
@@ -79,7 +79,7 @@ mysql> CREATE TABLE meibo (id INT, name VARCHAR(100), name_kana VARCHAR(200), pr
 Query OK, 0 rows affected (0.78 sec)
 ```
 
-##テーブルの確認
+## テーブルの確認
 
 基本構文
 　`$ SHOW TABLES;`
@@ -94,7 +94,7 @@ mysql> SHOW TABLES;
 1 row in set (0.18 sec)
 ```
 
-##テーブル内の確認
+## テーブル内の確認
 基本構文
 `$ DESK テーブル名`
 
@@ -113,7 +113,7 @@ mysql> DESC meibo;
 6 rows in set (0.17 sec)
 ```
 
-##テーブル内にデータを挿入
+## テーブル内にデータを挿入
 基本構文
 `$ INSERT INTO テーブル名 (カラム名1, カラム名2, ...) VALUES (値1, 値2, ...);`
 
@@ -177,7 +177,7 @@ mysql> SELECT * FROM meibo WHERE prefecture='東京都' AND age >= 35;
 1 row in set (0.17 sec)
 ```
 
-##データを更新
+## データを更新
 基本構文
 `$ UPDATE テーブル名 SET カラム名1 = 値1, カラム名2 = 値2, ..., カラム名n = 値n WHERE 条件文;`
 
@@ -200,8 +200,8 @@ Query OK, 4 rows affected (0.19 sec)
 
 
 
-#テーブルを作成(例を使用して)
-##テーブル設計
+# テーブルを作成(例を使用して)
+## テーブル設計
 Testデータベースにテーブルを作成していきます。今回は名簿をイメージした構成のテーブルを作成していきます。
 テーブルの項目内容とカラム名、型は下記の表のようにすることとします。
 

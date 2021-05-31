@@ -5,7 +5,7 @@ type: "tech"
 topics: ["Python","atom","error"]
 published: true
 ---
-#linter-flake8のエラー
+# linter-flake8のエラー
 
 Linter] Error running Flake8
 Make sure `/Users/user_name/.virtualenvs/env1/bin/flake8

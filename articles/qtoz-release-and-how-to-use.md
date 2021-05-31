@@ -155,3 +155,5 @@ ZennとGithubの連携を行うことでアップロードできます。
 詳細Zenn公式の「[GitHubリポジトリでZennのコンテンツを管理する](https://zenn.dev/zenn/articles/connect-to-github)」をご確認ください。
 
 
+## 注意点
+Qiitaでは正しく表示されていたmarkdown記法でも、Zennでは表示されないケースがありますので、[Zenn CLIを使用したローカルプレビュー](https://zenn.dev/zenn/articles/zenn-cli-guide#%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%81%99%E3%82%8B)などの方法で、表示確認することをお勧めします。

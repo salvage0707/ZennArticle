@@ -5,8 +5,10 @@ type: "tech"
 topics: ["Java","spring","Validation"]
 published: true
 ---
-#springでのバリデーション実装エラー
+# springでのバリデーション実装エラー
+
 ## 環境
+
 ```xml:pom.xml
 <properties>
 	<!-- Generic properties -->
@@ -53,7 +55,7 @@ pom.xmlに2つのjarファイルを追加
 </dependency>
 ```
 
-##2つのエラーが出現
+## 2つのエラーが出現
 
 1, サーブレットがinit()エラー
 
@@ -86,7 +88,7 @@ javax.servlet.ServletException: サーブレット dispatcherServlet のServlet.
 
 2, @NotEmptyが使用できない
 
-##エラーの解消
+## エラーの解消
 
 原因は追加したjarファイルのバージョンの関係
 pom.xmlを変更し、再度プロジェクトの更新を行ったら２つとも解消
@@ -106,7 +108,7 @@ pom.xmlを変更し、再度プロジェクトの更新を行ったら２つと�
 </dependency>
 ``` 
 
-##!!!エラーは消えたが、使用できない!!!
+## !!!エラーは消えたが、使用できない!!!
 
 今回はバージョンの関係ということはわかったが、根本的な解決には至らなかったので、別の機会に再検討
 
