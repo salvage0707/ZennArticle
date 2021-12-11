@@ -43,7 +43,7 @@ $ go env GOPATH
 ```sh:.bashrc
 # 以下を追記する
 export GOPATH=$(go env GOPATH)
-export PATH=$PATH:$GOPATH:bin
+export PATH=$PATH:$GOPATH/bin
 ```
 
 ③ `.bashrc`を読み込む。（ターミナル再起動でもOK）
